@@ -1,0 +1,5 @@
+x(AB): 4.46 GFLOP   (xA)B: 0.98 MFLOP
+ratio: 4533x
+params full 131.1 M, LoRA 491.5 K (0.375%)
+base matmul per token 262.1 MFLOP, unmerged LoRA adds 0.38%
+rank(A @ B) = 4 | max |merged - side| = 1.8e-14

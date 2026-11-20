@@ -1,0 +1,4 @@
+Configuration: L=93 layers, d=64 hidden dim, 8 blocks
+Plain serial grad norm | 穿64层=6.79e-05, 穿93层=3.57e-07
+Std Pre-Norm (93L)     | 顶层状态膨胀=5.14x, 第0层能量占比=3.78%
+Block AttnRes (93L)    | 顶层状态比值=0.73x, alpha_(0->top): 起步=0.1111 -> 手设对齐后=0.6582

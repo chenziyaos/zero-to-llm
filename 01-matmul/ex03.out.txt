@@ -1,0 +1,9 @@
+q_proj     weight (8192, 5120)      41.94 M
+k_proj     weight (1024, 5120)       5.24 M
+v_proj     weight (1024, 5120)       5.24 M
+o_proj     weight (5120, 8192)      41.94 M
+gate_proj  weight (25600, 5120)    131.07 M
+up_proj    weight (25600, 5120)    131.07 M
+down_proj  weight (5120, 25600)    131.07 M
+one layer 487.6 M, 64 layers 31.21 B
+prefill T=1024, linear layers only: 63.9 TFLOP

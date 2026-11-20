@@ -1,0 +1,7 @@
+B=  1 | AI_lin=  1.0 | t_lin=16.12ms | t_cache= 0.25ms | TPOT=16.37ms | TPS=  61 tok/s | 池需=  0.6GiB
+B=  8 | AI_lin=  8.0 | t_lin=16.12ms | t_cache= 2.00ms | TPOT=18.13ms | TPS= 441 tok/s | 池需=  5.1GiB
+B= 32 | AI_lin= 31.6 | t_lin=16.13ms | t_cache= 8.01ms | TPOT=24.14ms | TPS=1325 tok/s | 池需= 20.5GiB
+B= 64 | AI_lin= 62.4 | t_lin=16.14ms | t_cache=16.03ms | TPOT=32.17ms | TPS=1989 tok/s | 池需= 41.0GiB
+B=128 | AI_lin=121.9 | t_lin=16.17ms | t_cache=32.05ms | TPOT=48.22ms | TPS=2654 tok/s | 池需= 82.0GiB
+B=256 | AI_lin=232.7 | t_lin=16.22ms | t_cache=64.10ms | TPOT=80.32ms | TPS=3187 tok/s | 池需=164.0GiB
+B=512 | AI_lin=426.7 | t_lin=27.96ms | t_cache=128.21ms | TPOT=156.16ms | TPS=3279 tok/s | 池需=328.0GiB

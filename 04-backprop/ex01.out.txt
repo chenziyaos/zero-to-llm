@@ -1,0 +1,5 @@
+稀疏 671B     (V=129280): dual_FP32=33.89 GB | BF16+FP32_inplace=25.42 GB
+稠密 32B      (V=151936): dual_FP32=39.83 GB | BF16+FP32_inplace=29.87 GB
+稠密 27B      (V=248320): dual_FP32=65.10 GB | BF16+FP32_inplace=48.82 GB
+Qwen3.8-27B Fused Chunked (C=512): 0.51 GB (直降 128 倍!)
+Max diff | loss=1.19e-07, dX=0.00e+00, dW=1.49e-08

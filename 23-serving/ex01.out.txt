@@ -1,0 +1,4 @@
+=== Scenario 1: Unbounded Queue ===
+无界队列+断连傻跑: (0.35, 21.72, 0.0, 0.0)
+=== Scenario 2: MaxQ=6 + Early Abort ===
+MaxQ=6 +断连即回收: (18.37, 0.0, 3.87, 16.6)

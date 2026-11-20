@@ -1,0 +1,10 @@
+H100     ridge = 295 FLOP/byte
+RTX 5090 ridge = 117 FLOP/byte
+M=    1      0.26 GFLOP   262.2 MB  AI     1.0  H100   3.3 TF (0.078 ms)  RTX 5090   1.8 TF
+M=   64     16.78 GFLOP   266.1 MB  AI    63.1  H100 211.2 TF (0.079 ms)  RTX 5090 112.9 TF
+M=  128     33.55 GFLOP   270.0 MB  AI   124.3  H100 416.3 TF (0.081 ms)  RTX 5090 209.0 TF
+M=  256     67.11 GFLOP   277.9 MB  AI   241.5  H100 809.1 TF (0.083 ms)  RTX 5090 209.0 TF
+M= 4096   1073.74 GFLOP   513.8 MB  AI  2089.8  H100 989.0 TF (1.086 ms)  RTX 5090 209.0 TF
+H100     becomes compute-bound at M = 318
+RTX 5090 becomes compute-bound at M = 121
+DeepSeek-V3 B=64: 87% of experts touched, 2.3 tokens per touched expert

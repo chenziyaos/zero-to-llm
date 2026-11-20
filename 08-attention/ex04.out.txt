@@ -1,0 +1,3 @@
+天梯(per-tok): GPT-3=4.50MiB -> Qwen3=256KiB -> DS-V3=68.6KiB
+2026 代表架构  : Qwen3.8=64KiB(+72MiB) | Kimi-K3=27KiB(+207MiB)
+压缩倍数与1M词显存: GPT-3→Kimi-K3 170.7倍 | 1M词 KV: Qwen3-32B=256.00GiB vs Kimi-K3=27.00GiB

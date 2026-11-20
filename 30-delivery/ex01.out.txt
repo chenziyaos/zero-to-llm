@@ -1,0 +1,3 @@
+rc1_初审包(T=0贪心) | pass=False | digest=10bcff4073353633 | errors=['MISSING:rag_index_lock', 'MISSING:engine_pool_lock', 'GREEDY_DRIFT:516/600<99.5%']
+rc2_终审包(T=0贪心) | pass=True  | digest=ae19877eb3e758bb | errors=[]
+rc2_终审包(T=1思考) | pass=True  | digest=ae19877eb3e758bb | errors=[]

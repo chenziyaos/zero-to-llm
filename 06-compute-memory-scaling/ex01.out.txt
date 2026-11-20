@@ -1,0 +1,3 @@
+Qwen3.8-27B: {'tok_gflops': 54.0, 'attn_256k_gflops': 51.5, 'static_16psi_gb': 432.0, 'min_h100': 6, 'cache_256k_gib': 16.14, 'mfu_pct': 45.0, 'chinchilla_20p_T': 0.54, 'c_life_1e24': 5.13}
+DeepSeek-V3: {'tok_gflops': 74.0, 'attn_256k_gflops': 524.0, 'static_16psi_gb': 10736.0, 'min_h100': 125, 'cache_256k_gib': 17.16, 'mfu_pct': 44.9, 'chinchilla_20p_T': 0.74, 'c_life_1e24': 6.99}
+Kimi-K3: {'tok_gflops': 208.0, 'attn_256k_gflops': 154.6, 'static_16psi_gb': 44800.0, 'min_h100': 522, 'cache_256k_gib': 6.95, 'mfu_pct': 45.0, 'chinchilla_20p_T': 2.08, 'c_life_1e24': 19.76}

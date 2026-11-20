@@ -1,0 +1,4 @@
+{'model': 'Qwen3-32B (1xH100, BF16)', 'w_gib': 59.6, 'kv_gib': 64.0, 'state_gib': 0.0, 'hbm_gib': '123.6/80', 'ttft_floor_ms': 16963.8}
+{'model': 'Qwen3.8-27B (1xH100, BF16)', 'w_gib': 50.3, 'kv_gib': 16.0, 'state_gib': 0.56, 'hbm_gib': '66.9/80', 'ttft_floor_ms': 14313.2}
+{'model': 'DeepSeek-V3 (8xH100, FP8)', 'w_gib': 624.9, 'kv_gib': 68.62, 'state_gib': 0.0, 'hbm_gib': '693.5/640', 'ttft_floor_ms': 9807.2}
+{'model': 'Kimi-K3 (64xH100, FP8)', 'w_gib': 2607.7, 'kv_gib': 216.0, 'state_gib': 6.47, 'hbm_gib': '2830.2/5120', 'ttft_floor_ms': '待测'}

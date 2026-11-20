@@ -1,0 +1,3 @@
+朴素拆算 -> q_y=0.0, loss=inf, grad=[[nan, nan, nan]]
+融合 LogSumExp -> loss=200.0, grad=[[1.0, 0.0, -1.0]]
+结论：指数下溢导致 NaN 传播失败，LogSumExp 融合确保数值安全与有界梯度

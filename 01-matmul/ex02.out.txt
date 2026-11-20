@@ -1,0 +1,3 @@
+W (256, 128) W.T (128, 256) y (4, 256)
+max |x W^T - (W x)^T| = 0.0
+W.T is a view, no copy: True

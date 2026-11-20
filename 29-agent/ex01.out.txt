@@ -1,0 +1,6 @@
+正常定位: status=RESOLVED turns=4 usd=0.0195
+  diagnosis: db-proxy retry leak exhausted 200 conn pool
+熔断交接: status=PARTIAL_HANDOFF turns=4 usd=0.0178
+  facts: ['auth-svc 403 spike after key-rot-v4']
+  blocked_by: read_k8s_secret: 403 Forbidden RBAC
+  human_cmd: kubectl auth can-i get secrets -n prod --as=sre-oncall

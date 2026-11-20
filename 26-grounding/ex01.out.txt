@@ -1,0 +1,3 @@
+U型槽位顺序: ['[1]pg_v32_timeout(v3.2)', '[2]pg_v32_pool(v3.2)', '[3]pg_v32_metrics(v3.2)', '[4]pg_v31_legacy(v3.1)', '[5]pg_v32_idemp(v3.2)']
+反查角标[5]: {'doc_id': 'pg_v32_idemp', 'ver': 'v3.2', 'exact_bytes': (8328, 8343), 'sha12': 'ff2aa74e2d39'}
+信封总长: 715 字符 | 注册角标数: 5

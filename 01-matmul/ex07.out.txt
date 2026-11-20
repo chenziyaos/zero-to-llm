@@ -1,0 +1,9 @@
+Qwen3-32B     262144 B/token =  256.0 KiB/token
+Qwen3.8-27B    65536 B/token =   64.0 KiB/token
+DeepSeek-V3    70272 B/token =   68.6 KiB/token
+Kimi K3        27648 B/token =   27.0 KiB/token
+Qwen3-32B    32768 tokens ->  8.00 GiB per sequence
+Qwen3.8-27B  32768 tokens ->  2.00 GiB per sequence
+DeepSeek-V3  32768 tokens ->  2.14 GiB per sequence
+Kimi K3      32768 tokens ->  0.84 GiB per sequence
+ridge H100 = 295  ridge RTX 5090 = 117

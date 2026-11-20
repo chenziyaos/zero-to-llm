@@ -1,0 +1,4 @@
+70.4 / 80 GB
+K3 crossover: 7850
+244.1 1M | 16.14 cache | 70.4 total
+25.75 1M | 68.6 KiB/tok

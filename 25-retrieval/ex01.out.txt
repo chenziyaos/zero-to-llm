@@ -1,0 +1,3 @@
+q* 单题核对: {'Recall@5': 0.75, 'Recall@5_SE': 0.433, 'Precision@5': 0.6, 'MRR@5': 1.0, 'NDCG@5': 0.6674, 'EmptyBlockRate': 0.0}
+微型集汇总: {'Recall@5': 0.875, 'Recall@5_SE': 0.2339, 'Precision@5': 0.4, 'MRR@5': 0.75, 'NDCG@5': 0.6492, 'EmptyBlockRate': 0.5}
+库外题抓取: 30 题成功拦截

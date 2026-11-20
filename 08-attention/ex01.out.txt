@@ -1,0 +1,3 @@
+测试 Gated-GQA：3 查询头分享 1 键值头，d_k=256（非 64/128 标准宽）
+整句预填充末词 shape: torch.Size([2, 1, 640]) | 单步解码 shape: torch.Size([2, 1, 640])
+KV 缓存头维 (B, h_kv, S, d_k): torch.Size([2, 1, 6, 256]) | Prefill-vs-Decode 误差: 1.34e-07

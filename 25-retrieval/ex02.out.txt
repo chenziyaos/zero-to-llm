@@ -1,0 +1,3 @@
+BM25 排序: ['pg_v32_err5042', 'pg_v32_err5041', 'pg_v32_pool', 'pg_v32_idemp'] | Dense 前3: ['pg_v32_idemp', 'pg_v32_pool', 'pg_v32_err5042']
+RRF Top-3: [('pg_v32_err5042', 0.03227), ('pg_v32_idemp', 0.03202), ('pg_v32_pool', 0.032)]
+双路共识: pg_v32_err5042 与 pg_v32_idemp 稳居前二

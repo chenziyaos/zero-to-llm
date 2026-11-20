@@ -1,0 +1,6 @@
+q.k = 5, |q| = 3.00, |k| = 3.16, cos = 0.53, angle = 58 deg
+d= 64  std(q.k) =  7.99  sqrt(d) =  8.00  std(q.k / sqrt(d)) = 1.00
+d=128  std(q.k) = 11.31  sqrt(d) = 11.31  std(q.k / sqrt(d)) = 1.00
+d=256  std(q.k) = 15.94  sqrt(d) = 16.00  std(q.k / sqrt(d)) = 1.00
+raw    mean top-1 weight over 1024 keys = 0.790
+scaled mean top-1 weight over 1024 keys = 0.017

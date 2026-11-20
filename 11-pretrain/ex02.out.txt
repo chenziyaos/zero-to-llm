@@ -1,0 +1,5 @@
+loss_nats: 2.456
+raw_grad_norm: 0.812
+lr: 0.0003
+valid_tok_s: 168700.0
+true_mfu: 0.512

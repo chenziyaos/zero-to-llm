@@ -1,0 +1,4 @@
+# 跑 tools/verify.py 与各章 exNN.py 所需的包；正文输出就是在这两个版本上实跑得到的。
+# 只需 CPU。torch 的 CPU 版可用：pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+numpy==2.4.6
+torch==2.15.0

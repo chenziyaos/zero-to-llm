@@ -1,0 +1,6 @@
+故障基线: Prefill-First + 同步排批       | 批次完工: 806.1ms | 老用户 max_ITL:501.2ms
+仅开分块: Chunked 2048 + 同步排批        | 批次完工: 554.3ms | 老用户 max_ITL: 22.9ms
+分块+重叠: Chunked 2048 + 异步重叠       | 批次完工: 520.6ms | 老用户 max_ITL: 20.5ms
+故障态: 整块Prefill+预划死池+BF16               | 抢占:38/分 | P99_ITL:480.8ms | P99_TPOT:520.0ms | Goodput: 440 tok/s | $1.89/M
+阶段一: 仅开2048分块+异步重叠(仍满池抢占)              | 抢占:16/分 | P99_ITL: 28.5ms | P99_TPOT: 88.4ms | Goodput:1520 tok/s | $0.55/M
+投产态: 分块重叠+统一双向池+FP8+对齐检查点              | 抢占: 0/分 | P99_ITL: 23.6ms | P99_TPOT: 23.8ms | Goodput:2260 tok/s | $0.37/M
