@@ -4,6 +4,8 @@
 
 正文在 [`book/`](book/README.md)，从总览 ZTL-00 读起，各篇末尾有上一篇、下一篇的链接。正文里每一段可运行的 Python 代码都抽到了仓库根目录对应章节的目录里，和正文贴出的输出放在一起，可以一键逐字核对。
 
+在线阅读：<https://chenziyaos.github.io/zero-to-llm/>，带侧边目录和全文搜索。它由 `mkdocs.yml` 从 `book/` 生成，推送到 main 后自动发布；本地预览：`pip install -r docs-site/requirements.txt && mkdocs serve`。
+
 ## 能做什么
 
 - **按顺序读完整课程**：七层由浅入深，L1 数学 → L2 模型结构 → L3 预训练 → L4 后训练 → L5 推理服务 → L6 应用与 Agent → L7 交付。
