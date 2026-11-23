@@ -4,7 +4,7 @@
 
 正文在 [`book/`](book/README.md)，从总览 ZTL-00 读起，各篇末尾有上一篇、下一篇的链接。正文里每一段可运行的 Python 代码都抽到了仓库根目录对应章节的目录里，和正文贴出的输出放在一起，可以一键逐字核对。
 
-在线阅读：<https://chenziyaos.github.io/zero-to-llm/>，带侧边目录和全文搜索。它由 `mkdocs.yml` 从 `book/` 生成，推送到 main 后自动发布；本地预览：`pip install -r docs-site/requirements.txt && mkdocs serve`。
+在线阅读：<https://zyaochen.github.io/zero-to-llm/>，带侧边目录和全文搜索。它由 `mkdocs.yml` 从 `book/` 生成，推送到 main 后自动发布；本地预览：`pip install -r docs-site/requirements.txt && mkdocs serve`。
 
 ## 能做什么
 
@@ -17,7 +17,7 @@
 需要 Python 3.10 及以上（输出是在 3.11 上生成的）。
 
 ```bash
-git clone https://github.com/chenziyaos/zero-to-llm.git && cd zero-to-llm
+git clone https://github.com/zyaochen/zero-to-llm.git && cd zero-to-llm
 python3 -m venv .venv && . .venv/bin/activate
 pip install numpy==2.4.6
 pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
