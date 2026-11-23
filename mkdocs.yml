@@ -1,14 +1,14 @@
 # Online edition of book/, published to GitHub Pages by .github/workflows/pages.yml.
 # Local preview: pip install -r docs-site/requirements.txt && mkdocs serve
 site_name: 从零掌握大模型
-site_url: https://chenziyaos.github.io/zero-to-llm/
+site_url: https://zyaochen.github.io/zero-to-llm/
 site_description: 从矩阵乘法讲到推理服务、RAG、Agent 和工程交付，每个技术决策都落到效果、显存、时延、成本四笔账上。
-repo_url: https://github.com/chenziyaos/zero-to-llm
-repo_name: chenziyaos/zero-to-llm
+repo_url: https://github.com/zyaochen/zero-to-llm
+repo_name: zyaochen/zero-to-llm
 edit_uri: blob/main/book/
 docs_dir: book
 site_dir: site
-copyright: <a href="https://chenziyaos.github.io/">chenziyaos</a> · MIT
+copyright: <a href="https://zyaochen.github.io/">zyaochen</a> · MIT
 
 theme:
   name: material
@@ -72,4 +72,4 @@ extra:
   repo_prefix: "book"
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/chenziyaos
+      link: https://github.com/zyaochen
